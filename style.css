@@ -40,7 +40,7 @@ nav {
 }
 
 h2 {
-    color: #ffffff;
+    color:rgb(44, 51, 58);
     margin: 75px;
     margin-left: 100px;
     margin-right: 100px;
@@ -49,7 +49,7 @@ h2 {
 }
 
 body {
-    background-color:  rgb(105, 158, 189);
+    background-color:  white;
     letter-spacing: 2px;
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
