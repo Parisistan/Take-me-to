@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: white;
+}
+
+.logo {
+    color:rgb(44, 51, 58);
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: rgb(253, 68, 68);
+    text-decoration: none;
+}
+
+h2 {
+    color:rgb(44, 51, 58);
+    margin: 75px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    font-weight: 100;
+}
+
+body {
+    background-color:  white;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.S1 {
+    margin: 60px;
+    line-height: 35px;
+    margin-left: 95px;
+    margin-right: 95px;
+}
+
+.S2 {
+    margin: 60px;
+    line-height: 35px;
+    margin-left: 95px;
+    margin-right: 95px;
+    list-style: none;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1521161908453-1cacd0215437?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNvZmZlZSUyMHNob3B8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
