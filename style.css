@@ -105,3 +105,25 @@ body {
       max-width: 100%;
     }
   }
+
+  .our-list{
+      list-style: none;
+  }
+
+  .our-list{
+      list-style: none;
+      margin: 60px;
+      line-height:35px;
+      margin-left:95;
+      margin-right:95;
+  }
+
+  .our-list{
+      list-style: none;
+    }
+
+    a:hover{
+        background-color:rgb(226, 51, 51);
+        color: white;
+    }
+
