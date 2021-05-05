@@ -13,7 +13,7 @@ nav {
 }
 
 .logo {
-    color:rgb(44, 51, 58);
+    color: rgb(44, 51, 58);
     font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 8px;
@@ -26,6 +26,7 @@ nav {
     width: 30%;
     justify-content: space-around;
     font-size: 12px;
+    font-weight: 700;
     letter-spacing: 3px;
     color: rgb(255, 255, 255);
 }
@@ -35,12 +36,14 @@ nav {
 }
 
 .nav-links a {
-    color: rgb(253, 68, 68);
+    font-family: 'Raleway', sans-serif;
+    color: rgb(241, 12, 12);
+    font-weight: bolder;
     text-decoration: none;
 }
 
 h2 {
-    color:rgb(44, 51, 58);
+    color: rgb(44, 51, 58);
     margin: 75px;
     margin-left: 100px;
     margin-right: 100px;
@@ -49,7 +52,7 @@ h2 {
 }
 
 body {
-    background-color:  white;
+    background-color: white;
     letter-spacing: 2px;
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
@@ -75,55 +78,73 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
-  }
-  
-  /* Create four equal columns that sits next to each other */
-  .column {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/* Create four equal columns that sits next to each other */
+
+.column {
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
-  }
-  
-  .column img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.column img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
-  }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media screen and (max-width: 800px) {
     .column {
-      flex: 50%;
-      max-width: 50%;
+        flex: 50%;
+        max-width: 50%;
     }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
     .column {
-      flex: 100%;
-      max-width: 100%;
+        flex: 100%;
+        max-width: 100%;
     }
-  }
+}
 
-  .our-list{
-      list-style: none;
-  }
+.our-list {
+    list-style: none;
+    text-decoration-line: none;
+    margin: 60px;
+    line-height: 35px;
+    margin-left: 95;
+    margin-right: 95;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
 
-  .our-list{
-      list-style: none;
-      margin: 60px;
-      line-height:35px;
-      margin-left:95;
-      margin-right:95;
-  }
+.our-list li {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    text-decoration-line: none;
+}
 
-  .our-list{
-      list-style: none;
-    }
+.our-list a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    text-decoration-line: none;
+}
 
-    a:hover{
-        background-color:rgb(226, 51, 51);
-        color: white;
-    }
-
+a:hover {
+    background-color: rgb(226, 51, 51);
+    color: white;
+}
